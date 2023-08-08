@@ -1,0 +1,45 @@
+/* Optional: Add custom styles for the carousel */
+
+  .carousel-item {
+    text-align: center;
+  }
+  .carousel-container{
+    background: rgb(52, 53, 121);
+  }
+  
+  /* Optionally style the custom navigation arrows */
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #fb0000;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  /* Update the CarouselComponent.css with the following styles */
+
+
+
+  
+  .slick-slider {
+    width: 100%;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height:700px;
+    max-height: 900px; /* Set the maximum height of the carousel items, adjust as needed */
+    object-fit: cover; 
+    opacity: 0.4;
+    /* Ensures images maintain aspect ratio and cover entire container */
+  }
+  

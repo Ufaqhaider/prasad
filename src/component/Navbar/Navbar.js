@@ -13,7 +13,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+
+     <div className='fullnavbar w-100'>
+
+    
+      <nav className="navbar h-75 navbar-expand-md navbar-dark">
         <div className="container-fluid main-nav">
           <div className="navbar-brand-container">
             <a className="navbar-brand" href="#">
@@ -163,6 +167,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      </div>
     </>
   );
 };

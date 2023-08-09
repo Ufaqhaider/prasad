@@ -10,6 +10,7 @@ body{
 }
 .navbar{
   padding: 0 60px;
+  background-color: rgb(70,37,154);
 }
 .collapse{
   flex-direction: row-reverse;

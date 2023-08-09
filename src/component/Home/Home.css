@@ -1,4 +1,24 @@
 /* Optional: Add custom styles for the carousel */
+.custom-shape-divider-bottom-1691595857 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1691595857 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 158px;
+  /* background-color: red; */
+}
+
+.custom-shape-divider-bottom-1691595857 .shape-fill {
+  fill: #FFFFFF;
+}
 
   .carousel-item {
     text-align: center;

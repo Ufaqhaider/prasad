@@ -5,11 +5,15 @@
   align-items: center;
 
 }
+.dropdown:hover{
+     color: black;
+}
 body{
   background-color: #fff7f6;
 }
 .navbar{
   padding: 0 60px;
+  background-color: #fff7f6;
 }
 .collapse{
   flex-direction: row-reverse;
@@ -19,6 +23,7 @@ body{
 }
 .logo-name{
   padding-left: 20px;
+  color: #46259a;
 }
 
 
@@ -56,10 +61,16 @@ body{
 /* Optional: To improve user experience by adding a slight delay to the dropdown appearance */
 .dropdown {
   transition: all 0.3s ease;
+  color: black;
 }
 
 /* Optional: Add some spacing between the dropdown items */
 .dropdown-menu {
   padding: 10px;
 }
+
+.nav-link{
+  color: #46259a;
+}
+
 
